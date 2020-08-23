@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 2
+date: 2020-03-01
+img: achord.gif
+alt: Achord
+project-date: March 2020
+client: Ableton Live Community
+category: Digital audio application
+description: Achord is a Max for Live application which is able to detect tonal information live, directly from an incoming audio signal. Surprisingly, although the supporting research is nearly 20 years old, this sort of application is not currently offered by anyone else within the Max for Live community. This form of spectral processing is primarily made possible by going beyond the built-in Max objects and instead using the new Node for Max API to do all the hard work. Code available at https://github.com/mxkrn/M4L-Achord; Get the application at https://maxforlive.com/library/device/6063/achord.
+---

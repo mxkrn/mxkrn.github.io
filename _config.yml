@@ -1,0 +1,45 @@
+title: Max Kraan
+email: max@mxkrn.com
+url: https://www.mxkrn.com
+author: Max Kraan
+description: Personal website for Max kraan
+skills: "Machine Learning Engineer - Web Developer - Creative Technologist"
+
+color:
+  primary: 343434
+  secondary: fffefa
+  secondary-dark: ad771b
+
+footer:
+  copyright: Max Kraan
+  location: Based in Berlin, Germany
+
+social:
+  - title: github
+    url: https://www.github.com/mxkrn
+  - title: linkedin
+    url: https://www.linkedin.com/in/mxkrn/
+  - title: envelope
+    url: mailto:contact@mxkrn.com
+
+# address:
+#   - line: Blücherstraße 13
+#   - line: 10961 Berlin
+
+markdown: kramdown
+permalink: pretty
+
+default:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
+
+sass:
+  sass_dir: assets/css
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

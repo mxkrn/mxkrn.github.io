@@ -1,0 +1,23 @@
+<div class="container-fluid fixed-top" 
+      style="background-color: #{{ site.color.secondary }}">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-2 nav">
+        <a href="#page-top" class="active-link"><img class="logo-btn" src="/assets/images/favicon.png"></a>
+      </div>
+      <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
+        <div class="col-sm-10 nav navbar-expand-md">
+            {% for item in site.data.navigation %}
+
+              <a href="#{{ item.href }}" 
+              {% if page.url == item.link %}class="col-sm-2 mx-auto page-scroll nav-text nav-select"
+              {% else page.url != item.link %}class="col-sm-2 mx-auto page-scroll nav-text"
+              {% endif %}>
+              {{ item.name }}
+            </a>
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
