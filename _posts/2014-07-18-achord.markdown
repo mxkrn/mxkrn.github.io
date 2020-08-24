@@ -6,7 +6,6 @@ img: achord.gif
 alt: Achord
 project-date: March 2020
 client: Ableton Live Community
-category: Digital audio application
 tags: ['DSP', 'MIR', 'Max 8', 'Node.js']
 description: I built Achord as a Max for Live application which is able to detect tonal information live, directly from an incoming audio signal. Surprisingly, although the supporting research is nearly 20 years old, this sort of application was not offered by anyone else within the Max for Live community. This form of spectral processing is primarily made possible by going beyond the built-in Max objects and instead using the new Node for Max API to do all the hard work.
 ---
