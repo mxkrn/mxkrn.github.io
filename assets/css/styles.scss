@@ -206,6 +206,17 @@ section h2 {
     // padding-left: 50px;
 }
 
+.about-text {
+    font-size: 1.2em;
+}
+
+.profile-img {
+    padding-left: 10px; 
+    border-radius: 50%; 
+    width: 70%; 
+    height: auto;
+}
+
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
@@ -324,7 +335,7 @@ section.success {
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
     background: 0 0;
     transition: all .3s ease-in-out;
