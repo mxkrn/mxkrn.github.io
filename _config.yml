@@ -3,12 +3,12 @@ email: max@mxkrn.com
 url: https://www.mxkrn.com
 author: Max Kraan
 description: Personal website for Max kraan
-skills: "Machine Learning Engineer - Web Developer - Creative Technologist"
+skills: "Machine Learning Engineer - Audio and Music Technology"
 
 color:
-  primary: 343434
-  secondary: fffefa
-  secondary-dark: ad771b
+  primary: 434343
+  secondary: ffffff
+  secondary-dark: 434343
 
 footer:
   copyright: Max Kraan
